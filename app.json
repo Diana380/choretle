@@ -1,0 +1,12 @@
+{
+  "name": "choretle",
+  "displayName": "choretle",
+  "expo": {
+    "name": "choretle",
+    "slug": "choretle",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
