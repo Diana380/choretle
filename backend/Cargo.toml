@@ -1,0 +1,30 @@
+[package]
+name = "choretle"
+version = "0.1.0"
+authors = ["James <jhodgson71@gmail.com>"]
+edition = "2018"
+
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+async-std = { version = "1.9.0", features = ["attributes"] }
+serde = "1.0.125"
+serde_json = "1.0.64"
+tide = "0.16.0"
+surf = "2.2.0"
+anyhow = "1.0.40"
+mongodb = { version = "1.2.1", features = ["async-std-runtime"], default-features = false }
+async-trait = "0.1.50"
+
+[[bin]]
+name = "pioneer"
+path = "src/pioneer/main.rs"
+
+[[bin]]
+name = "overseer"
+path = "src/overseer/main.rs"
+
+[[bin]]
+name = "guardian"
+path = "src/guardian/main.rs"

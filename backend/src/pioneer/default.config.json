@@ -1,0 +1,14 @@
+{
+    "name": "discovery",
+    "port": 8100,
+    "services": [
+        {
+            "name": "pioneer",
+            "uri": "localhost:8100"
+        },
+        {
+            "name": "overseer",
+            "uri": "localhost:8101"
+        }
+    ]
+}
